@@ -1,0 +1,667 @@
+.main__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+.main__title .main__title-name {
+  width: auto;
+  height: 51px;
+  padding: 0 7px;
+  background: #B9FF66;
+  border-radius: 7px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 51px;
+  color: #000000;
+}
+.main__title .main__title-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.Services {
+  padding-top: 140px;
+}
+.Services .Services-cont-cards {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+.Services .Services-cont-cards-string {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 40px;
+}
+.Services .Services-card-grey {
+  background: #F3F3F3;
+}
+.Services .Services-card-green {
+  background: #B9FF66;
+}
+.Services .Services-card-black {
+  background: #191A23;
+}
+.Services .Services-card-text-green {
+  background: #B9FF66;
+}
+.Services .Services-card-text-white {
+  background: #FFFFFF;
+}
+.Services .Services-card-link-white {
+  color: #FFFFFF;
+}
+.Services .Services-card-link-black {
+  color: #000000;
+}
+.Services .Services-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 600px;
+  height: 310px;
+  border: 1px solid #191A23;
+  -webkit-box-shadow: 0px 5px 0px #191A23;
+          box-shadow: 0px 5px 0px #191A23;
+  border-radius: 45px;
+  padding: 50px 50px;
+}
+.Services .Services-card .Services-card-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 100px;
+}
+.Services .Services-card .Services-card-text {
+  padding: 0px 7px;
+  width: 221px;
+  height: 38px;
+  border-radius: 7px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #000000;
+}
+.Services .Services-card .Services-card-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.Services .Services-notice {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.Services .Services-notice .Services-notice__info {
+  padding-left: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 26px;
+}
+.Services .Services-notice .Services-notice__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #000000;
+}
+.Services .Services-notice .Services-notice__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+.Services .Services-notice .Services-notice__button {
+  width: 288px;
+  height: 68px;
+  background: #191A23;
+  border-radius: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.Services .Services-notice .Services-notice__button:hover {
+  background: #F3F3F3;
+  color: #000000;
+  border: #FFFFFF;
+  cursor: pointer;
+}
+
+.Case-Studies {
+  margin-top: 140px;
+}
+.Case-Studies .Case-Studies__cont {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 70px 60px;
+  gap: 64px;
+  width: 1234px;
+  height: 326px;
+  background: #191A23;
+  border-radius: 45px;
+}
+.Case-Studies .Case-Studies__cont-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  color: #FFFFFF;
+}
+.Case-Studies .Case-Studies__cont-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.Case-Studies .Case-Studies__cont-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #B9FF66;
+}
+.Case-Studies .Case-Studies__cont-line {
+  width: 0;
+  height: 186px;
+  border: 1px solid #FFFFFF;
+}
+
+.Our-Working-Process {
+  padding-top: 140px;
+}
+.Our-Working-Process .Our-Working-Process__inner {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+.Our-Working-Process .Working-Process__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 41px 60px;
+  gap: 30px;
+  width: 1234px;
+  height: auto;
+  background-color: #F3F3F3;
+  border: 1px solid #191A23;
+  -webkit-box-shadow: 0px 5px 0px #191A23;
+          box-shadow: 0px 5px 0px #191A23;
+  border-radius: 45px;
+}
+.Our-Working-Process .Working-Process__box .Working-Process__box-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  gap: 352px;
+  width: 1117px;
+  height: 77px;
+}
+.Our-Working-Process .Working-Process__box .Working-Process__box-top .Working-Process__box-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.Our-Working-Process .Working-Process__box .Working-Process__box-top .Working-Process__box-title .Working-Process__box-number {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 77px;
+  color: #000000;
+}
+.Our-Working-Process .Working-Process__box .Working-Process__box-top .Working-Process__box-title .Working-Process__box-title-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #000000;
+}
+.Our-Working-Process .Working-Process__box .Working-Process__box-top .Working-Process__box-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 27px;
+  border: none;
+  width: 58px;
+  height: 58px;
+  cursor: pointer;
+}
+.Our-Working-Process .Working-Process__box .Working-Process__box-line {
+  width: 1114px;
+  height: 0px;
+  border: 1px solid #000000;
+}
+.Our-Working-Process .Working-Process__box .Working-Process__box-content-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+.Our-Working-Process .Working-Process__box-bottom {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.Team {
+  padding-top: 140px;
+}
+.Team .Team__inner {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+.Team .Team-string {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 40px;
+}
+.Team .Team-block {
+  width: 387px;
+  height: 331px;
+  background: #FFFFFF;
+  border: 1px solid #191A23;
+  -webkit-box-shadow: 0px 5px 0px #191A23;
+          box-shadow: 0px 5px 0px #191A23;
+  border-radius: 45px;
+  padding: 40px 35px;
+}
+.Team .Team-block .Team-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 20px;
+}
+.Team .Team-block .Team-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.Team .Team-block .Team-prof {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+.Team .Team-block .Team-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.Team .Team-block .Team-line {
+  width: 317px;
+  height: 0px;
+  border: 1px solid #000000;
+  margin: 28px 0;
+}
+.Team .Team-block .Team-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+.Team .Team-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.Team .Team-button button {
+  width: 269px;
+  height: 68px;
+  background: #191A23;
+  border-radius: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.Team .Team-button button:hover {
+  background: #F3F3F3;
+  border: #F3F3F3;
+  color: #191A23;
+  cursor: pointer;
+}
+
+.Contact-Us {
+  padding-top: 140px;
+}
+.Contact-Us .Contact-Us-block {
+  width: 1240px;
+  height: 773px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 80px;
+  margin-bottom: 140px;
+  padding: 60px 100px 80px;
+  gap: 177px;
+  background: #F3F3F3;
+  border-radius: 45px;
+}
+.Contact-Us .Contact-Us-block .Contact-write {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+.Contact-Us .Contact-Us-block .check-radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 35px;
+}
+.Contact-Us .Contact-Us-block .check-radio .Say-Hi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 14px;
+}
+.Contact-Us .Contact-Us-block .check-radio .Get-a-quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 14px;
+}
+.Contact-Us .Contact-Us-block .check-radio .Say-Hi input, .Contact-Us .Contact-Us-block .check-radio .Get-a-quote input {
+  width: 28px;
+  height: 28px;
+}
+.Contact-Us .Contact-Us-block .check-radio input[type=radio]:after {
+  width: 28px;
+  height: 28px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid #000000;
+}
+.Contact-Us .Contact-Us-block .check-radio input[type=radio]:checked:after {
+  width: 28px;
+  height: 28px;
+  border-radius: 15px;
+  background-color: #B9FF66;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid #000000;
+}
+.Contact-Us .Contact-Us-block .input-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+}
+.Contact-Us .Contact-Us-block .input-contact .input-contact__write {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+.Contact-Us .Contact-Us-block .input-contact .input-contact__write .input-contact-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+.Contact-Us .Contact-Us-block .input-contact .input-contact__write input {
+  padding: 18px 30px;
+  gap: 10px;
+  width: 556px;
+  height: 59px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #898989;
+}
+.Contact-Us .Contact-Us-block .input-contact .input-contact__write .Massage {
+  height: 190px;
+}
+.Contact-Us .Contact-Us-block .contact-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 35px;
+  color: #FFFFFF;
+  width: 556px;
+  height: 68px;
+  background: #191A23;
+  border-radius: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.Contact-Us .Contact-Us-block .contact-button:hover {
+  color: #000000;
+  background: #B9FF66;
+  border: #B9FF66;
+  cursor: pointer;
+}

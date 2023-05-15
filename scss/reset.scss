@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container {
+    background: #FFFFFF;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+

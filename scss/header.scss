@@ -1,0 +1,102 @@
+.header-top {
+    margin-top: 60px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu__list {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        
+    }
+
+    .menu__list-link {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        color: #000000;
+    } .menu__list-link:hover {
+        text-decoration: underline;
+    } 
+
+    .menu__list-button {
+        width: 230px;
+        height: 68px;
+        border-radius: 14px;
+        border: 1px solid #191A23;
+        background: #FFFFFF;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        transition: 0.3s;
+    } .menu__list-button:hover {
+        background: #B9FF66;
+        border:#B9FF66; 
+        cursor: pointer;
+    }
+}
+
+.header-content {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .header-content__information {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+
+        .header-content__information-title-text {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 60px;
+            line-height: 77px;
+            color: #000000;
+        }
+
+        .header-content__information-subtitle-text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            color: #000000;
+        }
+
+        .header-content__information-button {
+            width: 264px;
+            height: 68px;
+            background: #191A23;
+            border-radius: 14px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            text-align: center;
+            border: 1px solid #191A23;
+            color: #FFFFFF;
+            transition: 0.3s;
+        } .header-content__information-button:hover {
+            color: #000000;
+            background: #B9FF66;
+            border: 1px solid #B9FF66;
+            cursor: pointer;
+        }
+    }
+}
+
+.header-link {
+    padding-top: 70px;
+
+    .header-content__social-media {
+        display: flex;
+        flex-direction: row;
+        gap: 95px;
+    }
+}
