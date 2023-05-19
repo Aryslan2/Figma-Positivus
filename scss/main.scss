@@ -214,90 +214,88 @@
     padding-top: 140px;
 
     .Our-Working-Process__inner {
-        margin-top: 80px;
+        padding-top: 80px;
         display: flex;
         flex-direction: column;
         gap: 30px;
     }
 
     .Working-Process__box {
+        transition: 1s;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 41px 60px;
         gap: 30px;
+        position: relative;
         width: 1234px;
         height: auto;
-        background-color: #F3F3F3;
+        background: #F3F3F3;
         border: 1px solid #191A23;
         box-shadow: 0px 5px 0px #191A23;
         border-radius: 45px;
+        padding: 41px 60px;
+    }
 
-        .Working-Process__box-top {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0px;
-            gap: 352px; 
-            width: 1117px;
-            height: 77px;
-
-            .Working-Process__box-title {
-                display: flex;
-                flex-direction: row;
-                gap: 25px;
-                align-items: center;
-
-                .Working-Process__box-number {
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 60px;
-                    line-height: 77px;
-                    color: #000000;
-                }
-
-                .Working-Process__box-title-name {
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 30px;
-                    line-height: 38px;
-                    color: #000000;
-                }
-            }
-
-            .Working-Process__box-button {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border-radius: 27px;
-                border: none;
-                width: 58px;
-                height: 58px;
-                cursor: pointer;
-            } 
-        }
-
-        .Working-Process__box-line {
-            width: 1114px;
-            height: 0px;
-            border: 1px solid #000000;
-            
-        }
-
+    .Working-Process__box-bottom {
+        transition: 1s;
+        height: auto;
+        display: none;
+        flex-direction: column;
+        gap: 30px;
         .Working-Process__box-content-text {
             font-style: normal;
-            font-weight: 500;
+            font-weight: 400;
             font-size: 18px;
             line-height: 23px;
             color: #000000;
         }
+        .Working-Process__box-line {
+            width: 1114px;
+            height: 0px;
+            border: 1px solid #000000;
+        }
     }
 
-    .Working-Process__box-bottom {
-        display: none;
-        flex-direction: column;
-        gap: 30px;
+    .Working-Process__box-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 35px;
+        border: none;
+    } .Working-Process__box-button:hover {
+        cursor: pointer;
+    }
+
+    .Working-Process__box-button {
+        position: absolute;
+        top: 51px;
+        left: 1110px;
+        align-items: center;
+    }
+
+    .Working-Process__box-title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 25px;
+        width: 702px;
+        height: 77px;
+
+        .Working-Process__box-number {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 60px;
+            line-height: 77px;
+            color: #000000;
+        }
+
+        .Working-Process__box-title-name {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 38px;
+            color: #000000;
+        }
     }
 }
 
@@ -327,11 +325,17 @@
         padding: 40px 35px;
 
         .Team-top {
+            position: relative;
             display: flex;
             flex-direction: row;
             align-items: flex-end;
             gap: 20px;
 
+        }
+        .linked-link img {
+            position: absolute;
+            bottom: 70px;
+            left: 280px;
         }
 
         .Team-info {
